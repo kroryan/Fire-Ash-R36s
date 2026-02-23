@@ -1,18 +1,11 @@
 {
     "fullscreen": true,
-    "fixedAspectRatio": true,
-    "smoothScaling": false,
-    "subImageFix": true,
+    "smoothScaling": 1,
     "enableBlitting": false,
     "vsync": false,
-    "defScreenW": 640,
-    "defScreenH": 480,
-    "frameSkip": true,
-    "SESourceCount": 6,
-    "BGMTrackCount": 1,
-    "midiSoundFont": "soundfont.sf2",
     "JITEnable": true,
-    "JITMinCalls": 1000,
-    "pathCache": true,
-    "winResizable": false
+    "JITMinCalls": 5000,
+    "midiSoundFont": "soundfont.sf2",
+    "SESourceCount": 6,
+    "BGMTrackCount": 1
 }
