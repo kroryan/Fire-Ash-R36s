@@ -6,9 +6,12 @@
     "fixedFramerate": 60,
     "subImageFix": true,
     "JITEnable": true,
-    "JITMinCalls": 5000,
+    "JITMinCalls": 100,
+    "JITMaxCache": 200,
     "pathCache": true,
+    "SESourceCount": 4,
+    "BGMTrackCount": 1,
     "midiSoundFont": "soundfont.sf2",
-    "SESourceCount": 6,
-    "BGMTrackCount": 1
+    "midiChorus": false,
+    "midiReverb": false
 }
