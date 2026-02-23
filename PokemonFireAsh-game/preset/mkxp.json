@@ -1,0 +1,12 @@
+{
+    "fullscreen": true,
+    "fixedAspectRatio": true,
+    "smoothScaling": false,
+    "subImageFix": true,
+    "enableBlitting": false,
+    "vsync": false,
+    "defScreenW": 640,
+    "defScreenH": 480,
+    "SESourceCount": 6,
+    "midiSoundFont": "soundfont.sf2"
+}
