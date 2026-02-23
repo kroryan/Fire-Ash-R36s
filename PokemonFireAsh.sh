@@ -38,6 +38,10 @@ export TEXTINPUTINTERACTIVE="Y"
 export XDG_DATA_HOME="$CONFDIR"
 export LC_ALL=C
 export LANG=C
+
+# Hide mouse cursor (SDL2 environment variable)
+export SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS=0
+
 cd $GAMEDIR
 
 # Move the mkxp.json preset

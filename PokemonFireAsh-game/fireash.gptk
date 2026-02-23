@@ -1,21 +1,19 @@
 # Pokemon Fire Ash - Controles R36S
-# Boton R36S    Tecla        Funcion
-#-------------|------------|------------------
 back = \"
-start = esc
+start = space
 up = up
 down = down
 left = left
 right = right
 a = c
-b = space
-x = z
-y = x
-l1 = a
-l2 = q
+b = z
+x = x
+y = a
+l1 = q
+l2 = s
 l3 = \"
-r1 = s
-r2 = w
+r1 = w
+r2 = d
 r3 = \"
 left_analog_up = up
 left_analog_down = down

@@ -7,6 +7,12 @@
     "vsync": false,
     "defScreenW": 640,
     "defScreenH": 480,
+    "frameSkip": true,
     "SESourceCount": 6,
-    "midiSoundFont": "soundfont.sf2"
+    "BGMTrackCount": 1,
+    "midiSoundFont": "soundfont.sf2",
+    "JITEnable": true,
+    "JITMinCalls": 1000,
+    "pathCache": true,
+    "winResizable": false
 }
