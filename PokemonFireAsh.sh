@@ -49,7 +49,7 @@ cd $GAMEDIR
 mv preset/mkxp.json ./mkxp.json 2>/dev/null
 
 # GPTOKEYB for controls and run port
-$GPTOKEYB "mkxp-z.${DEVICE_ARCH}" -c "./fireash.gptk" &
+$GPTOKEYB "mkxp-z.${DEVICE_ARCH}" -c "./mkxp-z.${DEVICE_ARCH}.gptk" &
 pm_platform_helper "$GAMEDIR/mkxp-z.${DEVICE_ARCH}" >/dev/null
 ./mkxp-z.${DEVICE_ARCH}
 
