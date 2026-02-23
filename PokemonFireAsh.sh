@@ -39,8 +39,9 @@ export XDG_DATA_HOME="$CONFDIR"
 export LC_ALL=C
 export LANG=C
 
-# Hide mouse cursor (SDL2 environment variable)
+# Hide mouse cursor (SDL2)
 export SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS=0
+export SDL_MOUSE_RELATIVE=0
 
 cd $GAMEDIR
 

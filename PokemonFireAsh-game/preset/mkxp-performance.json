@@ -1,14 +1,15 @@
 {
     "fullscreen": true,
-    "smoothScaling": 1,
+    "smoothScaling": 0,
     "enableBlitting": false,
     "vsync": false,
     "fixedFramerate": 60,
     "subImageFix": true,
     "JITEnable": true,
-    "JITMinCalls": 5000,
+    "JITMinCalls": 500,
+    "JITMaxCache": 50,
     "pathCache": true,
-    "midiSoundFont": "soundfont.sf2",
-    "SESourceCount": 6,
-    "BGMTrackCount": 1
+    "SESourceCount": 4,
+    "BGMTrackCount": 1,
+    "midiSoundFont": "soundfont.sf2"
 }
